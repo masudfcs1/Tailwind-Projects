@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="flex flex-col h-screen items-center bg-white-700">
+      <header class="bg-white-300 flexs w-full">
+        <div class="flex justify-end space-x-4 p-5">
+          <div class="flex mt-4 space-x-4">
+            <a class="hover:text-red-200 hover:underline" href="#"
+              ><p>Gmail</p></a
+            >
+            <a class="hover:text-red-200 hover:underline" href="#"
+              ><p>Images</p></a
+            >
+          </div>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon mt-2 hover:bg-gray-50 hover:cursor-pointer icon-tabler icon-tabler-brand-instagram"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+          <a href=""
+            ><img
+              class="rounded-full hover:text-gray-500 cursor-pointer border-2 w-14 hover:bg-opacity-5"
+              src="https://picsum.photos/200"
+              alt=""
+          /></a>
+        </div>
+      </header>
+
+      <!-- Mian section -->
+      <form class="flex flex-col bg-white-500 items-center  mt-44 w-4/5">
+        <div >
+          <img class="w-72" src="./googlelogo.png" alt="" />
+        </div>
+
+        <div
+          class="flex items-center w-full border border-gray-200 rounded-full py-3 px-5 hover:shadow-lg hover:cursor-pointer mt-5 max-w-2xl">
+         
+      <img src="./searchbar.png" class="w-7 text-gray-600 mr-5 " alt="">
+       <input type="text" class="flex-grow focus:outline-none" name="" id="">
+       <img src="./microphone-icon.png" alt="" class="w-7">
+        </div>
+
+        <div class="flex flex-col lg:flex-row ">
+          <button class="p-2 rounded-full bg-gray-100 hover:ring-1 focus:outline-none hover:bg-slate-50 mx-2 mt-5">I am Happy</button>
+          <button class="p-2 rounded-full bg-gray-100 hover:ring-1 focus:outline-none hover:bg-slate-50 mx-2 mt-5"> Felling Lucky</button>
+        </div>
+      </form>
+      <!-- Footer -->
+
+      <footer class="w-full mt-64 bg-white-300">
+         <div class="items-center my-5 px-4">Bangladesh.</div>
+         <hr>
+         <div class="grid md:grid-cols-2 mx-10  ">
+          <div class="bg-white-300 sm:justify-center flex md:justify-start space-x-4">
+            <p class=" hover:cursor-pointer hover:underline">About</p>
+            <p class=" hover:cursor-pointer hover:underline">Advertising</p>
+            <p class=" hover:cursor-pointer hover:underline">Business</p>
+            <p class=" hover:cursor-pointer hover:underline">How search works</p>
+          </div>
+          <div class="bg-white-300 flex space-x-3 md:justify-end justify-center">
+            <div class=" hover:cursor-pointer hover:underline">Privacy </div>
+            <div class=" hover:cursor-pointer hover:underline">Terms</div>
+            <div class=" hover:cursor-pointer hover:underline">Settings</div>
+          </div>
+         </div>
+      </footer>
+
+    </div>
+  </body>
+</html>
